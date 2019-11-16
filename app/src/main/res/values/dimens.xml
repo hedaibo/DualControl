@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tv_size">20sp</dimen>
+    <dimen name="tv_niti_size">16sp</dimen>
+    <dimen name="tv_margin">5dp</dimen>
+    <dimen name="tv_margin_left">2dp</dimen>
+    <dimen name="tv_ip_size">13sp</dimen>
+    <dimen name="fl_margin">10dp</dimen>
+    <dimen name="fl_tv_margin">20dp</dimen>
+    <dimen name="tv_dialog_size">22sp</dimen>
+</resources>

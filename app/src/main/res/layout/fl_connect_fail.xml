@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/drawable_round_edge">
+
+    <TextView
+        android:id="@+id/tv_title_lost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/fl_margin"
+        android:layout_marginTop="@dimen/fl_margin"
+        android:padding="@dimen/tv_margin"
+        android:text="@string/display_lost_host"
+        android:textStyle="bold"
+        android:textColor="@drawable/white"
+        android:textSize="@dimen/tv_dialog_size" />
+
+
+    <TextView
+        android:id="@+id/tv_ms_lost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/fl_tv_margin"
+        android:layout_marginEnd="@dimen/fl_tv_margin"
+        android:padding="@dimen/tv_margin"
+        android:text="@string/network_please_check_the_network"
+        android:textColor="@drawable/white"
+        android:layout_gravity="center"
+        android:textSize="@dimen/tv_size" />
+
+
+    <Button
+        android:id="@+id/bt_lost_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="@dimen/fl_margin"
+        android:layout_marginTop="@dimen/fl_margin"
+        android:background="@mipmap/bt_lost_host"
+        android:padding="@dimen/tv_margin"
+        android:text="@string/ok"
+        android:textColor="@drawable/ok_losthost_selector"
+        android:textSize="@dimen/tv_dialog_size" />
+
+
+</LinearLayout>
